@@ -1,0 +1,60 @@
+body {
+    font-family: 'Georgia', serif;  /* ナチュラルな感じを出すために、柔らかくてクラシックなフォント */
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8f0;  /* 明るい緑色の背景 */
+    color: #2e4c33;  /* 深い緑色のテキスト */
+}
+
+h1 {
+    color: #3e6a44;  /* 自然な緑色 */
+    text-align: center;
+}
+
+.comment {
+    border-bottom: 1px solid #7c9c72;  /* 木の色のような緑 */
+    padding: 10px 0;
+    background-color: #e6f2e6;  /* 落ち着いた緑色の背景 */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* 軽い影で立体感を出す */
+}
+
+.comment img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 画像に影をつけて自然な感じに */
+}
+
+.reply {
+    margin-left: 20px;
+    border-left: 2px solid #7c9c72;  /* 木の枝をイメージした色 */
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: #f1f7f1;  /* 明るい緑色 */
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #80b080;  /* 草の色のような緑 */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* ボタンに影をつけて立体感を演出 */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #6a9b66;  /* マウスオーバー時に少しダークな緑 */
+    transform: translateY(-2px);  /* 少し上に浮かせる */
+}
+
+button:active {
+    background-color: #557b4d;  /* クリックしたときの色 */
+    transform: translateY(0);  /* クリック時に戻る */
+}
